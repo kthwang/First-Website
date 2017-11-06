@@ -1,0 +1,160 @@
+body{
+
+  background-image: url(../image/main.jpg);
+  background-position: top center;
+  background-repeat: repeat-y;
+  background-size: 150%;
+  z-index: -1;
+}
+
+#div1{
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#icon {
+  margin: 0px;
+  margin-right: 0px ;
+  padding-right: 0px;
+  float: right;
+  width: 50px;
+  height: 50px;
+    }
+
+@font-face {
+  font-family: "chunk";
+  src: url(../fonts/Chunkfive.otf);}
+
+#link{
+  font-family: chunk, Georgia, sans-serif;
+  font-size: 100px;
+  margin-top: 0px auto 25px auto;
+  color: orange;
+  text-align: center;
+}
+
+#link:hover {color: red;}
+
+#div2{
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 50px;
+}
+
+#div3{
+  border-width: 1px;
+  border-style: hidden;
+  padding:10px 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  width: 90%;
+  -moz-box-shadow: -5px 5px lightgrey;
+  -webkit-box-shadow: -5px 5px lightgrey;
+  box-shadow: -5px 5px lightgray;
+  border-radius: 50px 20px / 20px 50px;
+  -moz-border-radius: 50px 20px / 20px 50px;
+  -webkit-border-radius: 50px 20px / 20px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/train.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+#div4{
+  border-width: 1px;
+  border-style: hidden;
+  padding:10px 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  width: 90%;
+  -moz-box-shadow: -5px 5px lightgray;
+  -webkit-box-shadow: -5px 5px lightgray;
+  box-shadow: -5px 5px lightgray;
+  border-radius: 50px 20px / 20px 50px;
+  -moz-border-radius: 50px 20px / 20px 50px;
+  -webkit-border-radius: 50px 20px / 20px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/spot.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+#div5{
+  border-width: 1px;
+  border-style: hidden;
+  padding:10px 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  width: 90%;
+  -moz-box-shadow: -5px 5px lightgray;
+  -webkit-box-shadow: -5px 5px lightgray;
+  box-shadow: -5px 5px lightgray;
+  border-radius: 50px 20px / 20px 50px;
+  -moz-border-radius: 50px 20px / 20px 50px;
+  -webkit-border-radius: 50px 20px / 20px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/eating.jpg);
+  background-position: top;
+  background-size: contain;
+}
+
+#div6{
+  border-width: 1px;
+  border-style: hidden;
+  padding:10px 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  width: 90%;
+  -moz-box-shadow: -5px 5px lightgray;
+  -webkit-box-shadow: -5px 5px lightgray;
+  box-shadow: -5px 5px lightgray;
+  border-radius: 50px 20px / 20px 50px;
+  -moz-border-radius: 50px 20px / 20px 50px;
+  -webkit-border-radius: 50px 20px / 20px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/shopping.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+#div7{
+  border-width: 1px;
+  border-style: hidden;
+  padding:10px 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  width: 90%;
+  -moz-box-shadow: -5px 5px lightgray;
+  -webkit-box-shadow: -5px 5px lightgray;
+  box-shadow: -5px 5px lightgray;
+  border-radius: 50px 20px / 20px 50px;
+  -moz-border-radius: 50px 20px / 20px 50px;
+  -webkit-border-radius: 50px 20px / 20px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/activity.jpg);
+  background-position: top;
+  background-size: contain;
+}
+
+a.link:link {
+  color: white;
+
+}
+a.link:visited {
+  color: white;
+}

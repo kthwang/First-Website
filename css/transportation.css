@@ -1,0 +1,58 @@
+
+.jumbotron {margin-top: 150px;}
+
+h1 { text-align: center;}
+h2 { text-align: center;}
+h3 { text-align: left;
+     color: black;}
+
+#icon {
+       margin: 0px;
+       margin-right: 0px ;
+       padding-right: 0px;
+       float: right;
+       width: 50px;
+       height: 50px;
+         }
+
+div.page-header {margin-top: 0px;}
+
+img.main {
+  width: 1140px;
+  height: 500px;
+}
+
+img.odd {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+}
+img.even {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+p.def {vertical-align: middle;
+   color: black;}
+
+p.info {text-align: center;
+        color: black;
+        margin: 0px;}
+
+span {
+  margin:0px;
+  padding:0px;
+  font-size: 50px;
+}
+.red{color: red;}
+.orange{color:orange;}
+.yellow{color:yellow;}
+.green{color:green;}
+.blue{color:blue;}
+.navy{color:navy;}
+.purple{color:purple;}

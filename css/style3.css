@@ -1,0 +1,56 @@
+div {
+  padding: 10px 20px;
+  border-width: 1px;
+  border-style: hidden;
+  margin-left: 1px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+
+
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url();
+}
+
+h1 {padding: 10px 20px;
+border-width: 1px;
+border-style: hidden;
+margin-left: 1px;
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 10px;
+background-color: grey;
+color: white;
+}
+
+legend {background-color: grey;
+        color: white;
+}
+
+label {font-family: cursive;}
+
+h3 { text-align: center;
+    background-color: grey;
+    color:white;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+
+  a:hover{color:red;}
+  a:visited{color:green;}
+  a:active{color:blue;}
+  a:link{color:green;}
+
+input {background-color: lightgrey;}
+input:focus {color: white;}
+[type="submit"]:active {color: yellow;}
+[type="submit"]:hover {color: red;}
+textarea {background-color: darkgray;}
+textarea:focus{color:white;}
+
+#heart {z-index: -1; height: 100%; width:100%; position: absolute;}

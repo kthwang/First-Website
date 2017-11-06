@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Cart </title>
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/cart.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <audio src="flash/never.mp3" autoplay loop preload>
+      <p>This Browser does not support out audio format.</p>
+    </audio>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="newyork.html">Pick It</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="transportation.html">Transportation</a></li>
+          <li><a href="spot.html">Spot</a></li>
+          <li><a href="eating.html">Eating</a></li>
+          <li><a href="shopping.html">Shopping</a></li>
+          <li class="active"><a href="cart.html">Cart</a></li>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Contents">
+            </div>
+            <button type="button" class="btn btn-default">Search</button>
+          </form>
+        </ul>
+        <img id="icon" src="image/icon.png" alt="error image">
+      </div>
+    </div>
+  </nav>
+<form action="http://amazon.com/cart.php" method="post">
+<div class="div1">
+  <fieldset>
+    <legend> Shipping Address </legend>
+    <label for="firstName"> * First Name:
+    <input type="text" name="firstname" placeholder="ex)Donald" size="15" maxlength="10" required="required" class="firstname"/>
+    </label>
+  <br><br>
+    <label for="LastName"> * Last Name:
+    <input type="text" name="lastname" placeholder="ex)Trump" size="15" maxlength="10" required="required" />
+    </label>
+  <br><br>
+    <label for="email"> * E-mail:
+    <input type="email" name="email" placeholder="xxxx@gmail.com" size="20" maxlength="40" required="required" />
+    </label>
+  <br><br>
+    <label for="Address1"> * Address Line:
+    <input type="text" name="address1" placeholder="ex)179st, 7ave" size="20" maxlength="40" required="required" />
+    </label>
+  <br><br>
+    <label for="Address2"> * Address Line2:
+    <input  type="text" name="address2" placeholder="ex) 1A-3 Floor" size="20" maxlength="40" />
+     (optional)
+    </label>
+  <br><br>
+    <label for="City"> * City:
+    <input type="text" name="city" placeholder="NY" size="10" maxlength="10" required="required" />
+    </label>
+  <br><br>
+    <label for="Country"> * Country:
+      <select name="country">
+        <option value="U.S.A">U.S.A</option>
+        <option value="China">China</option>
+        <option value="Russia">Russia</option>
+        <option value="Australia">Australia</option>
+        <option value="England">England</option>
+        <option value="Southkorea">South Korea</option>
+      </select>
+    </label>
+  <br><br>
+    <label for="zipcode"> * ZIP Code:
+      <input type="number" name="zip" placeholder="ex)12345" size="8" maxlength="5" required="required" />
+    </label>
+  <br><br>
+  <label for="zipcode"> * Phone Number:
+    <input type="number" name="phone" placeholder="ex) (917)714-9633" size="14" maxlength="12" required="required" />
+  </label>
+<br><br>
+<input type="checkbox" name="check" value="agree" />
+<label for="agree"> Use This as Billing Address</label>
+  </fieldset>
+</div>
+<br><br>
+<div class="div2">
+  <fieldset>
+    <legend> Payment method </legend>
+    <label for="select"> * Select
+      <br>
+    <input type="radio" name="card" value="visa" /><img class="logo" src="image/visa.png" />
+    <input type="radio" name="card" value="mastercard" /><img class="logo" src="image/master.gif" />
+    <input type="radio" name="card" value="aep" /><img class="logo" src="image/aep.jpg" />
+    <input type="radio" name="card" value="discover" /><img class="logo" src="image/discover.jpg" />
+    </label>
+    <br><br>
+    <label for="cardnumber"> * Card No.:
+      <input type="number" name="card" size="20" maxlength="16" required="required" />
+    </label>
+    <br><br>
+    <label for="code"> * Card Verifycation Code:
+      <input type="password" name="verify" size="5" maxlength="3" required="required" />
+    </label>
+    <br><br>
+    <label for="expiration"> * Expiration Date:
+      <select name="month">
+        <option value="01">Jan</option>
+        <option value="02">Feb</option>
+        <option value="03">Mar</option>
+        <option value="04">Apr</option>
+        <option value="05">May</option>
+        <option value="06">Jun</option>
+        <option value="07">Jul</option>
+        <option value="08">Aug</option>
+        <option value="09">Sep</option>
+        <option value="10">Oct</option>
+        <option value="11">Nov</option>
+        <option value="12">Dec</option>
+      </select> <span> / </span>
+      <select name="Year">
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+  </fieldset>
+  <br><br>
+  <input type="hidden" name="page_id" value="final" />
+  <input type="submit" name="order" src="image/visa.png"></input>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
